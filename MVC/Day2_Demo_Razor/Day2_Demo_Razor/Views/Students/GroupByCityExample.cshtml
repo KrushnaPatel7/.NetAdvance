@@ -1,0 +1,25 @@
+﻿@{
+    ViewBag.Title = "GroupByCityExample";
+}
+
+<h2>GroupByCityExample</h2>
+
+<table>
+    <tr>
+        <th>RollNo</th>
+        <th>StudentName</th>
+        <th>Age</th>
+    </tr>
+    @foreach (var item in ViewBag.StudentsGroupedData)
+    {
+
+        <tr>
+            <td>@item.Value.RollNo</td>
+            <td>@item.Value.StudName</td>
+            <td>@item.Value.Age</td>
+
+
+
+        </tr>
+    }
+</table>

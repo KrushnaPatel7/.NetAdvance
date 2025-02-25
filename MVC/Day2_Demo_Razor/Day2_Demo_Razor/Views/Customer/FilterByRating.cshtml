@@ -1,0 +1,15 @@
+﻿
+@{
+    ViewBag.Title = "FilterByRating";
+}
+
+<h2>FilterByRating</h2>
+
+@using (Html.BeginForm("GroupCustomersByRating", "Customer"))
+{
+    @Html.Label("Enter Rating Number")
+    @Html.TextBox("rating", "", new { @class = "form-control" })
+    <input type="submit" value="Show" />
+
+
+}

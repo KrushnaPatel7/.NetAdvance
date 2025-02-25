@@ -1,0 +1,6 @@
+C:\Users\krushna.patel\documents\visual studio 2017\Projects\LambdaDemo\LambdaDemo\bin\Debug\LambdaDemo.exe.config
+C:\Users\krushna.patel\documents\visual studio 2017\Projects\LambdaDemo\LambdaDemo\bin\Debug\LambdaDemo.exe
+C:\Users\krushna.patel\documents\visual studio 2017\Projects\LambdaDemo\LambdaDemo\bin\Debug\LambdaDemo.pdb
+C:\Users\krushna.patel\documents\visual studio 2017\Projects\LambdaDemo\LambdaDemo\obj\Debug\LambdaDemo.csprojResolveAssemblyReference.cache
+C:\Users\krushna.patel\documents\visual studio 2017\Projects\LambdaDemo\LambdaDemo\obj\Debug\LambdaDemo.exe
+C:\Users\krushna.patel\documents\visual studio 2017\Projects\LambdaDemo\LambdaDemo\obj\Debug\LambdaDemo.pdb

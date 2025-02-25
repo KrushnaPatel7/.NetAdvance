@@ -1,0 +1,12 @@
+﻿@{
+    ViewBag.Title = "DropdownCustomersByCity";
+}
+<h2>DropdownCustomersByCity</h2>
+@{
+    IEnumerable<string> cityList = new List<string> { "Pune", "Mumbai" };
+}
+@using (Html.BeginForm("DropdownCustomersByCity", "Customer", FormMethod.Get))
+{
+    @Html.DropDownList("city", new SelectList(cityList, cityList.FirstOrDefault()), "----Select City----")
+    <input type="submit" value="Show" />
+}

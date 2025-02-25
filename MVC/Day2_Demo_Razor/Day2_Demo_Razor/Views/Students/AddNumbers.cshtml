@@ -1,0 +1,19 @@
+﻿
+@{
+    ViewBag.Title = "AddNumbers";
+}
+
+<h2>AddNumbers</h2>
+
+@using (Html.BeginForm("AddNumbers", "Students"))
+{
+    @Html.Label("lblfno", "Enter First Number", new { @class = "form-control" })
+    @Html.TextBox("i", "", new { @class = "form-control" })
+    <br />
+    @Html.Label("lblsno", "Enter Second Number", new { @class = "form-control" })
+    @Html.TextBox("j", "", new { @class = "form-control" })
+    @Html.Label("lblpwd", "Enter Password", new { @class = "form-control" })
+    @Html.Password("Password", "", new { @class = "form-control" })
+    <input type="submit" value="Click" />
+
+}

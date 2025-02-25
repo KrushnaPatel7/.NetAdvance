@@ -1,0 +1,15 @@
+﻿
+@{
+    ViewBag.Title = "FilterCustomerByCustid";
+}
+
+<h2>Customer</h2>
+
+@using (Html.BeginForm("GetCustomerByCustid", "Customer"))
+{
+    @Html.Label("Enter Customer Id")
+    @Html.TextBox("customerid", "", new { @class = "form-control" })
+    <input type="submit" value="Show" />
+
+
+}

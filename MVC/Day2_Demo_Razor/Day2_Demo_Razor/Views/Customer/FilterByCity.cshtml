@@ -1,0 +1,15 @@
+﻿
+@{
+    ViewBag.Title = "FilterByCity";
+}
+
+<h2>FilterByCity</h2>
+
+@using (Html.BeginForm("GetCustomersByCity", "Customer"))
+{
+    @Html.Label("Enter City")
+    @Html.TextBox("city", "", new { @class = "form-control" })
+    <input type="submit" value="Show" />
+
+
+}

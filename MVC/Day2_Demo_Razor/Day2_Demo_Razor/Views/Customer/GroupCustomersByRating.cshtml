@@ -1,0 +1,23 @@
+﻿@{
+    ViewBag.Title = "GroupCustomersByRating";
+}
+
+<h2>GroupByRating</h2>
+
+<table>
+    <tr>
+        <th>Custname</th>
+        <th>Rating</th>
+        
+    </tr>
+    @foreach (var item in ViewBag.CustomerDataGrouped)
+    {
+        <tr>
+            
+            <td>@item.Custname</td>
+            <td>@item.Rating</td>
+            
+
+        </tr>
+    }
+</table>
