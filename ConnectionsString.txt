@@ -1,0 +1,12 @@
+For Windows Authentication
+Server=PN1LIATPF4P86J8\\SQLEXPRESS;Database=Northwind;Integrated Security=True
+
+For SQL Server Authentication
+Server=PN1LIATPF4P86J8\\SQLEXPRESS;Database=Northwind;UserId=Abc;Password=Abc@123
+
+
+---------------------------------------------
+Step1:Install EF
+Step2:Install Microsoft.EntityFramework.SqlServer
+Step3: Install Microsoft.EntityFramework.Tools
+Step4: After installing go to Logic Library and select ado.net Entity Data Model

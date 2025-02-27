@@ -1,0 +1,21 @@
+﻿
+@{
+    ViewBag.Title = "QuerySyntaxGroupByDemo";
+}
+
+<h2>QuerySyntaxGroupByDemo</h2>
+
+    <table class="table table-bordered">
+        <tr>
+            <th>CatId</th>
+            <th>AveragePrices</th>
+            
+        </tr>
+        @foreach (KeyValuePair<int, double> item in ViewBag.GroupByDemo)
+        {
+        <tr>
+            <td>@item.Key</td>
+            <td>@item.Value</td>
+        </tr>
+        }
+    </table>

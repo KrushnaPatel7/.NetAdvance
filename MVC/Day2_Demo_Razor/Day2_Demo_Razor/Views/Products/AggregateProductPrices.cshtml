@@ -1,0 +1,30 @@
+﻿
+
+@{
+    ViewBag.Title = "SumProductPrices";
+}
+
+<h2>SumProductPrices</h2>
+
+<h1>Total Price of All Products= (Rs)  @ViewBag.TotalPriceOfProducts</h1>
+
+<h1>Average Price of All Products= (Rs)  @ViewBag.AveragePriceOfProducts</h1>
+
+<h1>Minimum Price of All Products= (Rs)  @ViewBag.MinimumPriceOfProducts</h1>
+<h1>Maximum Price of All Products= (Rs)  @ViewBag.MaximumPriceOfProducts</h1>
+<hr />
+<table class="table table-light">
+    <tr>
+        <th>ProductID</th>
+        <th>ProductName</th>
+        <th>UnitPrice(Rs)</th>
+    </tr>
+    @foreach (var item in ViewBag.AllProducts)
+    {
+        <tr>
+            <td>@item.ProductId</td>
+            <td>@item.ProductName</td>
+            <td>@item.UnitPrice</td>
+        </tr>
+    }
+</table>

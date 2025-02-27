@@ -1,0 +1,18 @@
+Step1:Create MVC Project
+Step2:Create Class Library
+Step3:Tools install EntityFramewrok and EntityFramework.SqlServer
+Step4:Go to Solution and right click select project Dependencies
+Step5:Build DB_Logic
+Step6:Add DB_Logic.dll file to MVC reference
+Step7:Right click on DB_Logic Add new item select Ado.net Entity Data Model
+Step8:EF Designer From Database
+Step9:New Connection select Microsoft sql server
+Step10:Add Server Name(PN1LIATPF4P86J8\SQLEXPRESS )then select database Northwind then Select Tables and then Finish.
+Step 11:Build Solution
+Step 12: Add Controller
+Step13:Take Connectionstring from app config(DB_Logic) and paste in web config(MVC at Last)
+Step14:Create obj of Database in Controller
+Step15:Create Class in Models
+Step16 : Take few lines of code from Category.cs in DB_logic paste it in class.
+Step17:Writes few lines of code in Controller in index.
+Step18:Create view for the index and run that index.
