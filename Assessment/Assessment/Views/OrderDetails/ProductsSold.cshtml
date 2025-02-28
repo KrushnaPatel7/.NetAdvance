@@ -1,0 +1,20 @@
+﻿
+@{
+    ViewBag.Title = "Products Sold";
+}
+<p>
+    @Html.ActionLink("Go Back", "Index")
+</p>
+<div class="container mt-4">
+    <h2 class="text-primary mb-4">Products Sold</h2>
+
+    @using (Html.BeginForm("ProductsSoldById", "OrderDetails", FormMethod.Post, new { @class = "card p-4 shadow-sm" }))
+    {
+        <div class="mb-3">
+            @Html.Label("Enter the Product ID", new { @class = "form-label fw-bold" })
+            @Html.TextBox("id", null, new { @class = "form-control", placeholder = "Enter Product ID" })
+        </div>
+
+        <button type="submit" class="btn btn-primary">Submit</button>
+    }
+</div>

@@ -1,0 +1,10 @@
+C:\Users\krushna.patel\Desktop\Trainings\.NetAdvance\EmployeeUT\DB_Logic1\bin\Debug\DB_Logic1.dll.config
+C:\Users\krushna.patel\Desktop\Trainings\.NetAdvance\EmployeeUT\DB_Logic1\bin\Debug\DB_Logic1.dll
+C:\Users\krushna.patel\Desktop\Trainings\.NetAdvance\EmployeeUT\DB_Logic1\bin\Debug\DB_Logic1.pdb
+C:\Users\krushna.patel\Desktop\Trainings\.NetAdvance\EmployeeUT\DB_Logic1\bin\Debug\EntityFramework.dll
+C:\Users\krushna.patel\Desktop\Trainings\.NetAdvance\EmployeeUT\DB_Logic1\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\krushna.patel\Desktop\Trainings\.NetAdvance\EmployeeUT\DB_Logic1\bin\Debug\EntityFramework.xml
+C:\Users\krushna.patel\Desktop\Trainings\.NetAdvance\EmployeeUT\DB_Logic1\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\krushna.patel\Desktop\Trainings\.NetAdvance\EmployeeUT\DB_Logic1\obj\Debug\DB_Logic1.csprojResolveAssemblyReference.cache
+C:\Users\krushna.patel\Desktop\Trainings\.NetAdvance\EmployeeUT\DB_Logic1\obj\Debug\DB_Logic1.dll
+C:\Users\krushna.patel\Desktop\Trainings\.NetAdvance\EmployeeUT\DB_Logic1\obj\Debug\DB_Logic1.pdb

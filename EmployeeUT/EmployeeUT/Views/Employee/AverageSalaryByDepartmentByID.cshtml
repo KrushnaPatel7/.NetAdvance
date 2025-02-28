@@ -1,0 +1,64 @@
+﻿@model IEnumerable<EmployeeUT.Models.EmployeeModel>
+
+@{
+    ViewBag.Title = "AverageSalaryByDepartmentByID";
+}
+
+<h2>AverageSalaryByDepartmentByID</h2>
+
+<p>
+    @Html.ActionLink("Go Back", "AverageSalaryByDepartment")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.EmployeeID)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.FirstName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.LastName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Salary)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.DepartmentID)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.EmployeeID)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.FirstName)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.LastName)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Salary)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.DepartmentID)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { /* id=item.PrimaryKey */ }) |
+            @Html.ActionLink("Details", "Details", new { /* id=item.PrimaryKey */ }) |
+            @Html.ActionLink("Delete", "Delete", new { /* id=item.PrimaryKey */ })
+        </td>
+    </tr>
+}
+    <h2>Average of Salary  :</h2>
+
+    <h2>@ViewBag.avg</h2>
+
+    <br />
+    <div>
+        @Html.ActionLink("Index", "Index")
+    </div>
+</table>
